@@ -23,6 +23,7 @@
     "vuetify": "^3.7.4"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@jest/globals": "^29.7.0",
     "@mdi/font": "^7.4.47",
     "@rushstack/eslint-patch": "^1.8.0",
@@ -38,6 +39,7 @@
     "eslint": "^8.57.1",
     "eslint-plugin-vue": "^9.31.0",
     "jsdom": "^24.1.0",
+    "material-design-icons-iconfont": "^6.7.0",
     "npm-run-all2": "^6.2.6",
     "prettier": "^3.2.5",
     "typescript": "~5.4.0",
