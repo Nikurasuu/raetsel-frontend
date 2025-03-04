@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MainPage from '../views/MainPage.vue'
-import ZehnBruecken from '../views/ZehnBruecken.vue'
+import BrueckenRaetsel from '../views/BrueckenRaetsel.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,9 +11,9 @@ const router = createRouter({
       component: MainPage.vue
     },
     {
-      path: '/ZehnBruecken',
-      name: 'ZehnBruecken',
-      component: ZehnBruecken.vue
+      path: '/BrueckenRaetsel',
+      name: 'BrueckenRaetsel',
+      component: BrueckenRaetsel.vue
     }
   ]
 })
