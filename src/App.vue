@@ -88,6 +88,7 @@ export default {
       } else return false
     },
     onFileChange(file) {
+      this.imageUrl = ''
       console.log(typeof file)
       if (!file) {
         return
